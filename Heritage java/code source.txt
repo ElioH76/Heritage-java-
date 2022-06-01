@@ -1,0 +1,41 @@
+Classe mère :
+
+public class Vehicule {
+
+  private float vitesse;
+
+  // ...
+
+}
+
+
+Classe Fille 1 :
+
+public class Voiture extends Vehicule {
+
+  private final String marque;
+
+  public Voiture(String marque) {
+    this.marque = marque;
+  }
+
+  // ...
+
+}
+
+
+Classe fille 2:
+
+
+public class Moto extends Vehicule {
+
+  private final String marque;
+
+  public Moto(String marque) {
+    this.marque = marque;
+  }
+
+  // ...
+
+}
+
